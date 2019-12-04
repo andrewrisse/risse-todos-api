@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 mongoose.set("debug", true);
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/todo-api", { 
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://andrewrisse:" + process.env.PASSWORD + "@mycluster-cqqgf.mongodb.net/test?retryWrites=true&w=majority", { 
 	useNewUrlParser: true, 
 	useUnifiedTopology: true  
 }).then(() =>{
