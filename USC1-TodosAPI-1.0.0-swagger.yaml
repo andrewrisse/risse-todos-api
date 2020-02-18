@@ -158,24 +158,7 @@ definitions:
       - message
       
 
-# Added by API Auto Mocking Plugin
-# host: andrewrisse.com
-# basePath: /api
-# schemes:
-#  - http
-# Added by API Auto Mocking Plugin
-# host: www.andrewrisse.com
-# basePath: /api
-# schemes:
-#  - http
-# Added by API Auto Mocking Plugin
-# host: www.andrewrisse.com
-# basePath: /api
-# schemes:
-#  - http
-# Added by API Auto Mocking Plugin
-host: virtserver.swaggerhub.com
-basePath: /USC1/TodosAPI/1.0.0
+host: www.andrewrisse.com
+basePath: /api
 schemes:
- - https
  - http
