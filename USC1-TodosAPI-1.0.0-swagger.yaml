@@ -1,5 +1,5 @@
 swagger: '2.0'
-
+  
 info:
   description: This is simple Todos API
   version: 1.0.0
@@ -18,7 +18,7 @@ paths:
       operationId: getTodos
       description: Returns all todos
       produces:
-        - application/json
+      - application/json
       responses:
         200:
           description: search results for all todos
@@ -32,104 +32,104 @@ paths:
       consumes:
         - application/json
       operationId: createTodo
-      description: Adds a todo
+      description: Adds a todo 
       produces:
-        - application/json
+      - application/json
       parameters:
-        - in: body
-          name: name
-          description: Todo name to be added
-          schema:
-            type: object
-            required:
-              - name
-            properties:
-              name:
-                type: string
+      - in: body
+        name: name
+        description: Todo name to be added
+        schema:
+          type: object
+          required:
+            - name
+          properties:
+            name:
+              type: string
       responses:
         201:
           description: Todo that was created
           schema:
             $ref: '#/definitions/Todo'
-
+            
   /todos/{todoId}:
-    get:
-      operationId: getTodo
-      description: Return specific todo
-      produces:
+      get:
+        operationId: getTodo
+        description: Return specific todo
+        produces:
         - application/json
-      parameters:
-        - name: todoId
-          in: path
-          type: string
-          description: uuid of todo
-          required: true
-      responses:
-        201:
-          description: search result for todo
-          schema:
-            $ref: '#/definitions/Todo'
-        404:
-          description: not found
-    put:
-      operationId: updateTodo
-      description: Change todo status to completed/incompleted
-      produces:
+        parameters:
+          - name: todoId
+            in: path
+            type: string
+            description: uuid of todo
+            required: true
+        responses:
+          201:
+            description: search result for todo
+            schema:
+               $ref: '#/definitions/Todo'
+          404:
+           description: not found
+      put:
+        operationId: updateTodo
+        description: Change todo status to completed/incompleted
+        produces:
         - application/json
-      parameters:
-        - name: todoId
-          in: path
-          type: string
-          description: uuid of todo
-          required: true
-        - name: completed
-          in: body
-          description: boolean status of completed
-          schema:
-            type: object
-            required:
-              - completed
-            properties:
-              completed:
-                type: boolean
-
-      responses:
-        200:
-          description: updated todo
-          schema:
-            $ref: '#/definitions/Todo'
-        404:
-          description: not found
-
-    delete:
-      operationId: deleteTodo
-      description: Deletes a todo
-      consumes:
-        - text/plain
-      produces:
+        parameters:
+          - name: todoId
+            in: path
+            type: string
+            description: uuid of todo
+            required: true
+          - name: completed
+            in: body
+            description: boolean status of completed
+            schema:
+              type: object
+              required:
+                - completed
+              properties:
+                completed: 
+                  type: boolean
+        
+        responses:
+          200:
+            description: updated todo
+            schema:
+               $ref: '#/definitions/Todo'
+          404:
+           description: not found
+           
+      delete:
+        operationId: deleteTodo
+        description: Deletes a todo 
+        consumes:
+          - text/plain
+        produces:
         - application/json
-      parameters:
-        - in: path
-          name: todoId
-          type: string
-          description: uuid of todo
-          required: true
-      responses:
-        200:
-          description: Todo was deleted
-          schema:
-            $ref: '#/definitions/Response'
-        404:
-          description: not found
+        parameters:
+          - in: path
+            name: todoId
+            type: string
+            description: uuid of todo
+            required: true
+        responses:
+          200:
+            description: Todo was deleted
+            schema:
+              $ref: '#/definitions/Response'
+          404:
+           description: not found
 
 definitions:
   Todo:
     type: object
     required:
-      - _id
-      - name
-      - completed
-      - created_date
+    - _id
+    - name
+    - completed
+    - created_date
     properties:
       id:
         type: string
@@ -145,7 +145,7 @@ definitions:
         type: string
         format: date-time
         example: 2019-12-04T18:28:26.261Z
-
+        
   Response:
     type: object
     properties:
@@ -156,8 +156,8 @@ definitions:
     required:
       - code
       - message
-
+      
 host: www.andrewrisse.com
 basePath: /api
 schemes:
-  - http
+ - http
