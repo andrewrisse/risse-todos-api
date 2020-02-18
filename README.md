@@ -4,4 +4,4 @@ Todo list single page web app using Express, Mongo, and JQuery. Todos API Swagge
 Todo API created during the Advanced Web Developer Boot Camp by Rithm School
 
 Link to Swagger documentation:
-https://andrewrisse.github.io/Todos-Api/
+https://app.swaggerhub.com/apis/andrewrisse/TodosAPI/1.0.0
