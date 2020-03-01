@@ -26,7 +26,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'notATodo'</defaultValue>
       <description></description>
       <id>e8912f08-f03c-4bd2-bd25-82f3b2239d2d</id>
       <masked>false</masked>
