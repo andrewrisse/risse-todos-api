@@ -43,7 +43,7 @@ exports.updateTodo = function(req, res){
 exports.deleteTodo = function(req, res){
     db.Todo.deleteOne({_id: req.params.todoId})
         .then(function(){
-            res.status(200).json({message: "We deleted it"});
+            res.status(204).json({message: "We deleted it"});
 
         })
         .catch(function(err){
