@@ -23,7 +23,7 @@ exports.createTodo = function(req, res){
 exports.getTodo = function(req, res){
     db.Todo.findById(req.params.todoId)
         .then(function(foundTodo){
-            if(!foundTodo){
+            if(!response[0]._id){
                 res.status(404).json({message: "Could not find that todo"});
             }
             else{
@@ -31,14 +31,19 @@ exports.getTodo = function(req, res){
             }
         })
         .catch(function(err){
-            res.send(err);
+            res.status(400).send(err);
         })
 }
 
 exports.updateTodo = function(req, res){
     db.Todo.findOneAndUpdate({_id: req.params.todoId}, req.body, {new: true}) //new: true makes the response be the updated version of the data
         .then(function(todo){
-            res.json(todo);
+            if(!response[0]._id){
+                res.status(404).json({message: "Could not find that todo"});
+            }
+            else{
+                res.json(todo);
+            }
         })
         .catch(function(err){
             res.send(err);
@@ -48,7 +53,12 @@ exports.updateTodo = function(req, res){
 exports.deleteTodo = function(req, res){
     db.Todo.deleteOne({_id: req.params.todoId})
         .then(function(){
-            res.status(200).json({message: "We deleted it"});
+            if(!response[0]._id){
+                res.status(404).json({message: "Could not find that todo"});
+            }
+            else{
+                res.status(200).json({message: "We deleted it"});
+            }
         })
         .catch(function(err){
             res.status(400).send(err);
