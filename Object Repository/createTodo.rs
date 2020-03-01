@@ -60,9 +60,8 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
 
-WS.verifyResponseStatusCode(response, 201)
+WS.verifyResponseStatusCode(response, 400)
 
-WS.verifyElementPropertyValue(response, 'name', &quot;My New Todo&quot;)
-WS.verifyElementPropertyValue(response, 'completed', false)</verificationScript>
+WS.verifyElementPropertyValue(response, 'errors.name.message', &quot;Name cannot be blank!&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
