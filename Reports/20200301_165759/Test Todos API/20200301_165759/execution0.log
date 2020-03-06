@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880768</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Todos API</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Test Todos API</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Todos API</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880778</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = andrewrisse - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">andrewrisse - localhost</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880779</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880779</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880779</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.1.1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:00</date>
+  <millis>1583099880899</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Create Todo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Create Todo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Create Todo</property>
+  <property name="source">\\Users\\andrewrisse\\Library\\Mobile Documents\\com~apple~CloudDocs\\Programming\\risse-todos-api\\Test Cases\\Create Todo.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881077</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequestAndVerify(findTestObject(\&amp;quot;createTodo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881623</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_165759/Test Todos API/20200301_165759/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9ae11b6b-6c31-4005-b581-8ba78aa1f0d8</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881744</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Verification</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881820</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">11</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881823</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881823</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881824</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881824</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881829</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881830</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881830</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;errors.name.message\&amp;quot;, \&amp;quot;Name cannot be blank!\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881852</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881853</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;errors.name.message\&amp;quot;, \&amp;quot;Name cannot be blank!\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881853</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verification accomplished successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881853</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Verification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881855</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881855</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request and verify the response successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881855</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequestAndVerify(findTestObject(\&amp;quot;createTodo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881856</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Create Todo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881856</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Create Todo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881856</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>=================== Smart XPath Report =======================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881856</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refer to the link below to preview and approve auto healing on broken test objects.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881857</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881857</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===============================================================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881861</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Create Todo Without Name</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Create Todo Without Name</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Create Todo Without Name</property>
+  <property name="source">\\Users\\andrewrisse\\Library\\Mobile Documents\\com~apple~CloudDocs\\Programming\\risse-todos-api\\Test Cases\\Create Todo Without Name.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:01</date>
+  <millis>1583099881941</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequestAndVerify(findTestObject(\&amp;quot;createTodo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882037</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_165759/Test Todos API/20200301_165759/requests/main/1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f27a0484-1185-425b-a3fb-e75dbda7db44</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882090</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Verification</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882125</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">11</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882126</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : request = getInstance().getCurrentRequest()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882126</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882126</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = getInstance().getCurrentResponse()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882126</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882128</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882128</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882128</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPropertyValue(response, \&amp;quot;errors.name.message\&amp;quot;, \&amp;quot;Name cannot be blank!\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882136</millis>
+  <sequence>54</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify element property value successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882137</millis>
+  <sequence>55</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPropertyValue(response, \&amp;quot;errors.name.message\&amp;quot;, \&amp;quot;Name cannot be blank!\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882137</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verification accomplished successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882137</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Verification</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882137</millis>
+  <sequence>58</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882138</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request and verify the response successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882138</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequestAndVerify(findTestObject(\&amp;quot;createTodo\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882138</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Create Todo Without Name</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882138</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Create Todo Without Name</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882139</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>=================== Smart XPath Report =======================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882139</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refer to the link below to preview and approve auto healing on broken test objects.</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882139</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882139</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>===============================================================</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-03-01T16:58:02</date>
+  <millis>1583099882167</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Test Todos API</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2020-03-01T17:04:53</date>
+  <millis>1583100293205</millis>
+  <sequence>716</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1473</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har5238221957340222090/requests/ModalContext/52.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">aeaf3c94-8dc3-4a82-83e4-ea6609810642</property>
+</record>
+<record>
+  <date>2020-03-01T17:40:34</date>
+  <millis>1583102434389</millis>
+  <sequence>980</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1944</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har7802760749317061183/requests/ModalContext/53.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">08b4d52a-0063-4d09-af4b-1e1aaa6c68e0</property>
+</record>
+<record>
+  <date>2020-03-01T17:46:05</date>
+  <millis>1583102765057</millis>
+  <sequence>1821</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2176</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har813792542420357775/requests/ModalContext/54.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4d63bbce-9565-4eca-bf7a-f6a0c04ffb6a</property>
+</record>
+<record>
+  <date>2020-03-01T17:46:56</date>
+  <millis>1583102816788</millis>
+  <sequence>1972</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2209</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har4271160767044694811/requests/ModalContext/55.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">df9cb1ee-b5dc-40aa-8c94-3b0c414cf9c4</property>
+</record>
+<record>
+  <date>2020-03-01T17:54:47</date>
+  <millis>1583103287495</millis>
+  <sequence>1973</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2349</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har8248409904494788703/requests/ModalContext/56.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">96816e31-4ff3-47f7-b345-6c1e3b9e56ca</property>
+</record>
+<record>
+  <date>2020-03-01T17:54:54</date>
+  <millis>1583103294040</millis>
+  <sequence>1974</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2354</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har6244510542180240217/requests/ModalContext/57.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">19c28c81-046e-492e-b6e1-3e400378585a</property>
+</record>
+<record>
+  <date>2020-03-01T17:55:58</date>
+  <millis>1583103358834</millis>
+  <sequence>1997</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2382</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har3452164005936049525/requests/ModalContext/58.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">116e6d3c-aad9-4acb-a2bd-b53342eea34f</property>
+</record>
+<record>
+  <date>2020-03-01T17:56:02</date>
+  <millis>1583103362719</millis>
+  <sequence>1998</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2387</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har4390430254697421045/requests/ModalContext/59.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f28fdf13-7e80-497c-911d-704f9a78e374</property>
+</record>
+<record>
+  <date>2020-03-01T17:58:27</date>
+  <millis>1583103507917</millis>
+  <sequence>2021</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2465</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har5075225504604626615/requests/ModalContext/60.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4a87cc3a-d383-40e2-ba4f-649ff7ad27ec</property>
+</record>
+<record>
+  <date>2020-03-01T17:59:27</date>
+  <millis>1583103567175</millis>
+  <sequence>2048</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2486</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har2397330451184478962/requests/ModalContext/61.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">2dab768c-14cd-48a1-ae80-f20ea7d71515</property>
+</record>
+<record>
+  <date>2020-03-01T17:59:28</date>
+  <millis>1583103568300</millis>
+  <sequence>2049</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2491</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har958567972053188584/requests/ModalContext/62.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">0707f41d-d05c-467d-9a13-c84125f07814</property>
+</record>
+<record>
+  <date>2020-03-01T17:59:30</date>
+  <millis>1583103570720</millis>
+  <sequence>2050</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2495</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har4331432593672522304/requests/ModalContext/63.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">c443832a-dd9b-4996-9050-4a73b8ef4809</property>
+</record>
+<record>
+  <date>2020-03-01T18:12:17</date>
+  <millis>1583104337154</millis>
+  <sequence>2161</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2622</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har1414869616002653719/requests/ModalContext/64.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">6c91382c-f124-4284-8a58-7572003867a9</property>
+</record>
+<record>
+  <date>2020-03-01T18:12:36</date>
+  <millis>1583104356772</millis>
+  <sequence>2181</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2636</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har8186340329343001411/requests/ModalContext/65.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">9b09d0a1-953f-4c49-80ff-e2d68961391d</property>
+</record>
+<record>
+  <date>2020-03-01T18:13:52</date>
+  <millis>1583104432522</millis>
+  <sequence>2201</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2670</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har1673122600112310169/requests/ModalContext/66.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">65034228-234a-44e0-b38e-e48718584540</property>
+</record>
+<record>
+  <date>2020-03-01T18:14:45</date>
+  <millis>1583104485288</millis>
+  <sequence>2220</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2686</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har6571844739870405359/requests/ModalContext/67.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">3594e2f0-93ac-4740-a482-a335ad7f318a</property>
+</record>
+<record>
+  <date>2020-03-01T18:15:08</date>
+  <millis>1583104508483</millis>
+  <sequence>2239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2706</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har208647018595442237/requests/ModalContext/68.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">45fe844a-d757-4e60-879d-3baf7079685c</property>
+</record>
+<record>
+  <date>2020-03-01T18:16:04</date>
+  <millis>1583104564727</millis>
+  <sequence>2258</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2745</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har1095276261177478226/requests/ModalContext/69.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">b9ba38d4-f121-4dc7-b7f3-cec056cadc24</property>
+</record>
+<record>
+  <date>2020-03-01T18:17:35</date>
+  <millis>1583104655471</millis>
+  <sequence>2277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2762</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har3264239787662137886/requests/ModalContext/70.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f81a1434-636c-4930-9807-2c072a5507db</property>
+</record>
+<record>
+  <date>2020-03-01T18:18:12</date>
+  <millis>1583104692648</millis>
+  <sequence>2296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2780</thread>
+  <message>HAR: /var/folders/cv/vw39bt8n6ks4lsxkxzn3cpjm0000gn/T/har7433633637767364997/requests/ModalContext/71.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">72ffebd7-d905-4658-b83e-94002799b5f0</property>
+</record>
+</log>

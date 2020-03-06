@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Todos API" time="2.376" tests="4" failures="0" errors="0">
+   <testsuite name="Test Todos API" tests="4" failures="0" errors="0" time="2.376" timestamp="2020-03-01 17:41:55" hostname="andrewrisse - localhost" id="Test Suites/Test Todos API">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153"/>
+         <property name="logFiles" value="/Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="andrewrisse - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Create Todo Without Name" time="1.003" classname="Test Cases/Create Todo Without Name" status="PASSED">
+         <system-out><![CDATA[2020-03-01 17:41:55 - [TEST_CASE][PASSED] - Test Cases/Create Todo Without Name: Test Cases/Create Todo Without Name
+
+2020-03-01 17:41:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("createTodoNoName")): Send request successfully
+
+2020-03-01 17:41:56 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/0.har
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createTodoNoName")): Send request successfully
+
+2020-03-01 17:41:56 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/1.har
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createTodoNoName")): Send request successfully
+
+2020-03-01 17:41:56 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/2.har
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get Todos" time="0.387" classname="Test Cases/Get Todos" status="PASSED">
+         <system-out><![CDATA[2020-03-01 17:41:56 - [TEST_CASE][PASSED] - Test Cases/Get Todos: Test Cases/Get Todos
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("getTodos")): Send request and verify the response successfully
+
+2020-03-01 17:41:56 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/3.har
+
+2020-03-01 17:41:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].completed", false): Verify element property value successfully
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].name", "Walk Dog"): Verify element property value successfully
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - toString()).isEqualTo("[application/json; charset=utf-8]"): null
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - containsKey("Content-Type")).isTrue(): null
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-01 17:41:56 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Todo" time="0.428" classname="Test Cases/Create Todo" status="PASSED">
+         <system-out><![CDATA[2020-03-01 17:41:56 - [TEST_CASE][PASSED] - Test Cases/Create Todo: Test Cases/Create Todo
+
+2020-03-01 17:41:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("createTodo", ["name":"My Test Todo"])): Send request successfully
+
+2020-03-01 17:41:57 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/4.har
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "My Test Todo"): Verify element property value successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createTodo")): Send request successfully
+
+2020-03-01 17:41:57 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/5.har
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Send request successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createTodo")): Send request successfully
+
+2020-03-01 17:41:57 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/6.har
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get A Todo That Exists (Walk Dog)" time="0.404" classname="Test Cases/Get A Todo That Exists (Walk Dog)" status="PASSED">
+         <system-out><![CDATA[2020-03-01 17:41:57 - [TEST_CASE][PASSED] - Test Cases/Get A Todo That Exists (Walk Dog): Test Cases/Get A Todo That Exists (Walk Dog)
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("getTodo", ["todoId":"5de7fe98b67be000173ad1c9"])): Send request and verify the response successfully
+
+2020-03-01 17:41:57 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/7.har
+
+2020-03-01 17:41:57 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Walk Dog"): Verify element property value successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Verify response successfully
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2020-03-01 17:41:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getTodo", ["todoId":"5de7fe98b67be000173ad1c9"])): Send request successfully
+
+2020-03-01 17:41:57 - [MESSAGE][INFO] - HAR: /Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api/Reports/20200301_174153/Test Todos API/20200301_174153/requests/main/8.har
+
+2020-03-01 17:41:57 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-01 17:41:55 - [TEST_SUITE][PASSED] - Test Todos API: Test Cases/Get A Todo That Exists (Walk Dog)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
