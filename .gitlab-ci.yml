@@ -1,0 +1,8 @@
+run_katalon_test_suite:
+  tags:
+    - shell
+  script:
+    - katalon -noSplash  -runMode=console -consoleLog -projectPath=
+      "/Users/andrewrisse/Library/Mobile Documents/com~apple~CloudDocs/Programming/risse-todos-api" -retry=0
+      -testSuitePath="Test Suites/Test_Todos_API>" -executionProfile=
+      "default" -browserType="Chrome (headless)"
